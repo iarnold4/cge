@@ -3,30 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon - Clean Globe Environmental LLC</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        'prm-blue': '#1271b9',
-                        'prm-green': '#0f8a43',
-                    }
-                }
-            }
-        }
-    </script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>About Us - Clean Globe Environmental LLC</title>
+    <link href="css/output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<body class="font-sans antialiased bg-gradient-to-br from-prm-blue to-prm-green min-h-screen flex items-center justify-center">
-    <div class="text-center px-4">
-        <img src="public/cge-logo.png" alt="Clean Globe Environmental" class="h-32 mx-auto mb-8 brightness-0 invert">
-        <h1 class="text-5xl md:text-7xl font-bold text-white mb-6">Coming Soon</h1>
-        <p class="text-xl text-white/90 mb-8">This page is currently under construction</p>
-        <a href="index.html" class="inline-block bg-white text-prm-blue px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-            Return to Home
-        </a>
-    </div>
+<body class="font-sans antialiased">
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between py-4">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <img src="public/cge-logo2.png" alt="Clean Globe Environmental" class="h-16 w-auto">
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="nav-link text-gray-700 hover:text-prm-blue font-medium">Home</a>
+                    <a href="about.html" class="nav-link text-prm-blue font-medium">About Us</a>
+                    <a href="environmental-services.html" class="nav-link text-gray-700 hover:text-prm-blue font-medium">Environmental Services</a>
+                    <a href="geophysical-services.html" class="nav-link text-gray-700 hover:text-prm-blue font-medium">Geophysical Services</a>
+                    <a href="photo-gallery.html" class="nav-link text-gray-700 hover:text-prm-blue font-medium">Photo Gallery</a>
+                    <a href="contact.html" class="nav-link text-gray-700 hover:text-prm-blue font-medium">Contact Us</a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="md:hidden text-gray-700 hover:text-prm-blue">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <nav id="mobile-menu" class="hidden md:hidden pb-4 space-y-3">
+                <a href="index.html" class="block text-gray-700 hover:text-prm-blue font-medium py-2">Home</a>
+                <a href="about.html" class="block text-prm-blue font-medium py-2">About Us</a>
+                <a href="environmental-services.html" class="block text-gray-700 hover:text-prm-blue font-medium py-2">Environmental Services</a>
+                <a href="geophysical-services.html" class="block text-gray-700 hover:text-prm-blue font-medium py-2">Geophysical Services</a>
+                <a href="photo-gallery.html" class="block text-gray-700 hover:text-prm-blue font-medium py-2">Photo Gallery</a>
+                <a href="contact.html" class="block text-gray-700 hover:text-prm-blue font-medium py-2">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="bg-prm-blue py-20">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-4xl">
+                <h1 class="text-5xl md:text-6xl font-bold text-white mb-6">About Us</h1>
+                <p class="text-xl text-white/90 leading-relaxed">
+                    Clean Globe Environmental LLC (CGE) was established with the mission to provide contracting services to reduce costs for the environmental obligations and liabilities.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-5xl mx-auto">
+                <!-- Introduction -->
+                <div class="mb-12">
+                    <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                        Using, dedication, value, and sustainability, as a model, CGE is helping clients succeed in their respective markets in the Northeastern United States. CGE's expertise supports clients in the government, petrochemical, energy, engineering, environmental, real estate, retail sales, manufacturing, and commercial industries.
+                    </p>
+                </div>
+
+                <!-- Dedication Section -->
+                <div class="mb-12 bg-gray-50 rounded-xl p-8 md:p-10">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-4">Dedication:</h2>
+                    <p class="text-lg text-gray-700 leading-relaxed italic">
+                        CGE is dedicated to providing the best customer service in the industry. By understanding our customer's needs and desires we will do what is necessary to succeed and become the contractor of choice for environmental sampling, compliance, remedial services, and operation and maintenance. All too often environmental consultants get absorbed with the details of a project and forget about the big picture. At CGE, every employee understands the importance of repeat business and positive feedback from our clients.
+                    </p>
+                </div>
+
+                <!-- Value Section -->
+                <div class="mb-12 bg-gray-50 rounded-xl p-8 md:p-10">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-4">Value:</h2>
+                    <p class="text-lg text-gray-700 leading-relaxed italic">
+                        CGE understands that environmental liabilities create a challenge for companies to control costs associated with manufacturing, distribution, and sale of products, site development and site management. It is our goal to provide quality value added services that are focused on lowering the overall costs of projects while maintaining a high standard of quality. This goal is achieved through analysis of the components of an environmental solution and balancing the benefit of the component versus the cost. CGE will always provide its clients with the best available alternative option that satisfies the criteria of high value and low cost.
+                    </p>
+                </div>
+
+                <!-- Sustainability Section -->
+                <div class="mb-12 bg-gray-50 rounded-xl p-8 md:p-10">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-4">Sustainability:</h2>
+                    <p class="text-lg text-gray-700 leading-relaxed italic">
+                        As a leading environmental contracting firm, CGE is committed to compliance and environmental stewardship. What this means for our clients is confidence that CGE will find responsible solutions that minimize impacts on the environment. From investigation to remedy selection to long-term monitoring, environmental solutions that incorporate a greener aspect will be evaluated and presented in harmony with federal, state and local initiatives.
+                    </p>
+                </div>
+
+                <!-- Logo -->
+                <div class="flex justify-center mt-16">
+                    <img src="public/cge-logo2.png" alt="Clean Globe Environmental" class="h-32 w-auto opacity-50">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="bg-prm-blue py-16">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold text-white mb-6">Ready to Work With Us?</h2>
+            <p class="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+                Let us help you achieve your environmental goals with dedication, value, and sustainability
+            </p>
+            <a href="contact.html" class="inline-block bg-white text-prm-blue hover:bg-gray-100 px-10 py-4 rounded-lg font-semibold text-lg transition-colors duration-300 shadow-lg">
+                Contact Us Today
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <img src="public/cge-logo2.png" alt="Clean Globe Environmental" class="h-12 mb-4 brightness-0 invert">
+                    <p class="text-gray-400">Environmental contracting excellence since 1999</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="about.html" class="text-gray-400 hover:text-prm-green transition-colors">About Us</a></li>
+                        <li><a href="environmental-services.html" class="text-gray-400 hover:text-prm-green transition-colors">Environmental Services</a></li>
+                        <li><a href="geophysical-services.html" class="text-gray-400 hover:text-prm-green transition-colors">Geophysical Services</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-prm-green transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Info</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>34 Cain Drive</li>
+                        <li>Brentwood, NY 11717</li>
+                        <li>(888) 454-5923</li>
+                        <li>Email us at <a href="mailto:BLownes@cg-env.com" class="text-prm-green hover:text-prm-green-light transition-colors">BLownes@cg-env.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-center text-gray-400">
+                <p>&copy; 2026 Product Recovery Management Inc - CGE Division. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
