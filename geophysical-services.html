@@ -3,30 +3,296 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon - Clean Globe Environmental LLC</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        'prm-blue': '#1271b9',
-                        'prm-green': '#0f8a43',
-                    }
-                }
-            }
-        }
-    </script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Geophysical Services - Clean Globe Environmental LLC</title>
+    <link href="css/output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<body class="font-sans antialiased bg-gradient-to-br from-prm-blue to-prm-green min-h-screen flex items-center justify-center">
-    <div class="text-center px-4">
-        <img src="public/cge-logo.png" alt="Clean Globe Environmental" class="h-32 mx-auto mb-8 brightness-0 invert">
-        <h1 class="text-5xl md:text-7xl font-bold text-white mb-6">Coming Soon</h1>
-        <p class="text-xl text-white/90 mb-8">This page is currently under construction</p>
-        <a href="index.html" class="inline-block bg-white text-prm-blue px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-            Return to Home
-        </a>
-    </div>
+<body class="font-sans antialiased">
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between py-4">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <img src="public/cge-logo2.png" alt="Clean Globe Environmental" class="h-16 w-auto">
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="nav-link text-gray-700 hover:text-prm-blue font-medium">Home</a>
+                    <a href="about.html" class="nav-link text-gray-700 hover:text-prm-blue font-medium">About Us</a>
+                    <a href="environmental-services.html" class="nav-link text-gray-700 hover:text-prm-blue font-medium">Environmental Services</a>
+                    <a href="geophysical-services.html" class="nav-link text-prm-blue font-medium">Geophysical Services</a>
+                    <a href="photo-gallery.html" class="nav-link text-gray-700 hover:text-prm-blue font-medium">Photo Gallery</a>
+                    <a href="contact.html" class="nav-link text-gray-700 hover:text-prm-blue font-medium">Contact Us</a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="md:hidden text-gray-700 hover:text-prm-blue">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <nav id="mobile-menu" class="hidden md:hidden pb-4 space-y-3">
+                <a href="index.html" class="block text-gray-700 hover:text-prm-blue font-medium py-2">Home</a>
+                <a href="about.html" class="block text-gray-700 hover:text-prm-blue font-medium py-2">About Us</a>
+                <a href="environmental-services.html" class="block text-gray-700 hover:text-prm-blue font-medium py-2">Environmental Services</a>
+                <a href="geophysical-services.html" class="block text-prm-blue font-medium py-2">Geophysical Services</a>
+                <a href="photo-gallery.html" class="block text-gray-700 hover:text-prm-blue font-medium py-2">Photo Gallery</a>
+                <a href="contact.html" class="block text-gray-700 hover:text-prm-blue font-medium py-2">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="bg-prm-blue py-20">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-4xl">
+                <h1 class="text-5xl md:text-6xl font-bold text-white mb-6">Geophysical Services</h1>
+                <p class="text-xl text-white/90 leading-relaxed">
+                    Advanced geophysical investigation services using state-of-the-art equipment and proven methodologies
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-5xl mx-auto">
+                <!-- Services Overview -->
+                <div class="mb-16">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-6">CGE offers Geophysical Services to include:</h2>
+                    
+                    <div class="space-y-4">
+                        <div class="flex items-start space-x-3">
+                            <svg class="w-6 h-6 text-prm-green flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-lg text-gray-700"><strong>Private Utility Markouts</strong></span>
+                        </div>
+                        
+                        <div class="flex items-start space-x-3">
+                            <svg class="w-6 h-6 text-prm-green flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-lg text-gray-700">Underground Storage Tank (UST) Markouts</span>
+                        </div>
+                        
+                        <div class="flex items-start space-x-3">
+                            <svg class="w-6 h-6 text-prm-green flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-lg text-gray-700">Investigations using Ground Penetrating Radar (GPR) and Electromagnetic (EM) instruments to locate buried conductive and non-conductive features</span>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="my-12 border-gray-300">
+
+                <!-- Private Utility Markouts Section -->
+                <div class="mb-16">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-6">Private Utility Markouts involve more than just GPR...</h2>
+                    <p class="text-lg text-gray-700 mb-8">Investigations utilize a variety of instruments, methods and techniques.</p>
+                    
+                    <!-- Instruments -->
+                    <div class="mb-8">
+                        <h3 class="text-2xl font-bold text-prm-blue mb-4">Instruments:</h3>
+                        <ul class="space-y-2 ml-6">
+                            <li class="text-gray-700"><span class="text-prm-blue">•</span> GPR - Ground Penetrating Radar</li>
+                            <li class="text-gray-700"><span class="text-prm-blue">•</span> EM "Metal"-Detector (split box - able to detect metallic/conductive features)</li>
+                            <li class="text-gray-700"><span class="text-prm-blue">•</span> EM Utility Line Locators</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Utilities Detected -->
+                    <div class="mb-8">
+                        <h3 class="text-2xl font-bold text-prm-blue mb-4">Utilities typically detected:</h3>
+                        <ul class="space-y-2 ml-6">
+                            <li class="text-gray-700"><span class="text-prm-blue">•</span> Electric lines</li>
+                            <li class="text-gray-700"><span class="text-prm-blue">•</span> Water lines</li>
+                            <li class="text-gray-700"><span class="text-prm-blue">•</span> Gas lines</li>
+                            <li class="text-gray-700"><span class="text-prm-blue">•</span> Communication lines</li>
+                            <li class="text-gray-700"><span class="text-prm-blue">•</span> Sewer and Drainage lines</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Procedures -->
+                    <div class="mb-8">
+                        <h3 class="text-2xl font-bold text-prm-blue mb-4">Procedures - A 4 step process:</h3>
+                        <div class="space-y-4 ml-6">
+                            <p class="text-gray-700"><span class="text-prm-blue font-bold">1.</span> Locate underground <strong>lines associated with above-ground features</strong> such as light posts, manholes, valves, meters, etc.</p>
+                            <p class="text-gray-700"><span class="text-prm-blue font-bold">2.</span> The EM line locators are used in active and passive methods to investigate for <strong>utilities with no apparent exposures</strong>.</p>
+                            <p class="text-gray-700"><span class="text-prm-blue font-bold">3.</span> The EM "metal"-detector is used to locate <strong>conductive</strong> subsurface utilities and <strong>features</strong>, such as USTs, buried Dry Wells, etc.</p>
+                            <p class="text-gray-700"><span class="text-prm-blue font-bold">4.</span> The GPR system is pushed across an area of concern in an attempt to locate <strong>conductive and non-conductive features</strong> of interest.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="my-12 border-gray-300">
+
+                <!-- UST Investigations Section -->
+                <div class="mb-16">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-6">UST Investigations:</h2>
+                    
+                    <div class="space-y-6">
+                        <div>
+                            <h3 class="text-xl font-semibold text-prm-blue mb-3">If vents, fill ports, or product/return lines are present:</h3>
+                            <ul class="space-y-3 ml-6">
+                                <li class="text-gray-700"><span class="text-prm-blue">•</span> EM line locators are used in an attempt to locate UST related piping.</li>
+                                <li class="text-gray-700"><span class="text-prm-blue">•</span> If the lines are detected, apparent termination points are investigated using the EM "metal"-detector and GPR in an attempt to identify the associated UST.</li>
+                            </ul>
+                        </div>
+                        
+                        <div>
+                            <h3 class="text-xl font-semibold text-prm-blue mb-3">If no above-ground features are present:</h3>
+                            <p class="text-gray-700 mb-4 ml-6">Areas where USTs are expected will be investigated with the EM "metal"-detector and the GPR according to the following:</p>
+                            
+                            <div class="ml-6 space-y-4">
+                                <div>
+                                    <h4 class="font-semibold text-gray-900 mb-2">If the UST is expected to be metallic:</h4>
+                                    <ul class="space-y-2 ml-6">
+                                        <li class="text-gray-700"><span class="text-prm-blue">•</span> Areas of concern are investigated using the EM "metal"-detector.</li>
+                                        <li class="text-gray-700"><span class="text-prm-blue">•</span> Metal-detector anomalies with the potential of representing a UST are further investigated with the GPR in an attempt to detect reflections typical of a UST and possibly determine a depth.</li>
+                                        <li class="text-gray-700"><span class="text-prm-blue">•</span> GPR is used over select areas to aid in UST detection.</li>
+                                    </ul>
+                                </div>
+                                
+                                <div>
+                                    <h4 class="font-semibold text-gray-900 mb-2">If the UST is expected to be non-metallic:</h4>
+                                    <ul class="space-y-2 ml-6">
+                                        <li class="text-gray-700"><span class="text-prm-blue">•</span> Areas of concern are investigated with the GPR in an attempt to detect reflections typical of USTs.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="my-12 border-gray-300">
+
+                <!-- Additional Services Section -->
+                <div class="mb-16">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-6">Additional Services:</h2>
+                    
+                    <div class="bg-gray-50 rounded-xl p-8 mb-8">
+                        <h3 class="text-2xl font-bold text-prm-blue mb-4">Concrete Investigations – High Resolution (HR) GPR</h3>
+                        <ul class="space-y-3">
+                            <li class="text-gray-700"><span class="text-prm-blue">•</span> HR GPR can typically investigate through up to ~15 inches of concrete, depending on the age and type of concrete.</li>
+                            <li class="text-gray-700"><span class="text-prm-blue">•</span> HR GPR can be used to mark locations of rebar and other features within concrete.</li>
+                            <li class="text-gray-700"><span class="text-prm-blue">•</span> Identities of features detected in GPR data cannot be confirmed without physical verification.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-gray-50 rounded-xl p-8">
+                        <h3 class="text-2xl font-bold text-prm-blue mb-4">Deliverables - Figures and Report</h3>
+                        <div class="space-y-4">
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-2">Figures</h4>
+                                <p class="text-gray-700">If requested, the results can be mapped onto a scaled orthoimage or existing site plan, if available. Attempts are made to make locations as accurate as possible, when appropriate, but it should be noted these are not surveyed maps. When necessary, a GPS unit may be used for more accurate mapping.</p>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-2">Report</h4>
+                                <p class="text-gray-700">A written report of the investigation results and limitations can be provided. The report format can be adapted to specific project requirements.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Utility Color Code Section -->
+                <div class="bg-gray-50 rounded-xl p-8 mb-12">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">Utility Marking Color Code</h3>
+                    <p class="text-center text-gray-700 mb-6">Based on the American Public Works Association</p>
+                    
+                    <div class="grid md:grid-cols-2 gap-4">
+                        <div class="text-center">
+                            <p><span class="font-bold text-red-600">RED</span> - Electric</p>
+                        </div>
+                        <div class="text-center">
+                            <p><span class="font-bold text-yellow-500">YELLOW</span> - Natural Gas, Steam, Petroleum lines and structures, Gaseous features</p>
+                        </div>
+                        <div class="text-center">
+                            <p><span class="font-bold text-orange-500">ORANGE</span> - Communication</p>
+                        </div>
+                        <div class="text-center">
+                            <p><span class="font-bold text-blue-600">BLUE</span> - Water</p>
+                        </div>
+                        <div class="text-center">
+                            <p><span class="font-bold text-green-600">GREEN</span> - Sewer, Drainage</p>
+                        </div>
+                        <div class="text-center">
+                            <p><span class="font-bold text-pink-600">PINK</span> - Utilities and Anomalies of Undetermined Use, Temporary Survey Markings</p>
+                        </div>
+                        <div class="text-center md:col-span-2">
+                            <p><span class="font-bold text-gray-800">WHITE</span> - Proposed Excavations and Drilling Locations</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Closing Statement -->
+                <div class="text-center bg-prm-blue/10 rounded-xl p-8 mb-12">
+                    <p class="text-xl text-prm-blue font-semibold leading-relaxed">
+                        Every project and every job site is unique. CGE takes time to understand expectations of every project to determine a safe, effective and efficient approach.
+                    </p>
+                </div>
+
+                <!-- Organization Logos -->
+                <div class="text-center">
+                    <img src="public/560_org_logos.png" alt="Professional Organizations and Certifications" class="mx-auto rounded-xl shadow-lg max-w-full">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="bg-prm-blue py-16">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold text-white mb-6">Need Geophysical Services?</h2>
+            <p class="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+                Contact us today to discuss your utility markout or geophysical investigation needs
+            </p>
+            <a href="contact.html" class="inline-block bg-white text-prm-blue hover:bg-gray-100 px-10 py-4 rounded-lg font-semibold text-lg transition-colors duration-300 shadow-lg">
+                Contact Us Today
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <img src="public/cge-logo2.png" alt="Clean Globe Environmental" class="h-12 mb-4 brightness-0 invert">
+                    <p class="text-gray-400">Environmental contracting excellence since 1999</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="about.html" class="text-gray-400 hover:text-prm-green transition-colors">About Us</a></li>
+                        <li><a href="environmental-services.html" class="text-gray-400 hover:text-prm-green transition-colors">Environmental Services</a></li>
+                        <li><a href="geophysical-services.html" class="text-gray-400 hover:text-prm-green transition-colors">Geophysical Services</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-prm-green transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Info</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>34 Cain Drive</li>
+                        <li>Brentwood, NY 11717</li>
+                        <li>(888) 454-5923</li>
+                        <li>Email us at <a href="mailto:BLownes@cg-env.com" class="text-prm-green hover:text-prm-green-light transition-colors">BLownes@cg-env.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-center text-gray-400">
+                <p>&copy; 2026 Product Recovery Management Inc - CGE Division. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
